@@ -1,0 +1,36 @@
+CommonJS vs ESM Module
+
+Functionality
+   CommonJs - Works with the Node.js platform.
+   ESM Module - Works with the web browser environment.
+
+Compilation
+    CommonJS - Compiled into AMD modules (Asynchronous module definition).
+    ESM Module - Does not require a module loader like AMD 
+
+Dependencies
+    All dependencies are listed in the same file.
+    Reference any other module in the same package available on the global namespace.
+
+Type-checking
+     CommonJS - No type-checking capabilities
+    ESM Module - Robust typing support via imports
+
+Dependency Packaging
+    CommonJS - Packaging up functionality into small pieces
+    ESM Module - Declare dependencies between modules
+
+File Structure
+    CommonJS - Flat files
+    ESM Module - References to other modules
+
+Export 
+    CommonJS - Exports in the same file
+    ESM Module - Exports scattered through codebase
+
+Import 
+    CommonJS - No import functionality 
+    ESM Module - Must use a require statement to access exported functions and properties
+
+
+
